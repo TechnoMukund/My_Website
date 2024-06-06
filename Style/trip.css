@@ -1,0 +1,133 @@
+.parallax1{
+    width: 100%;
+    height: 100vh;
+    background-image: url('../Images/KatBo1.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.parallax1 img{
+    width: 30%;
+    position: relative; 
+    top: 30%; 
+    left: 40%;
+}
+.parallax2{
+    width: 100%;
+    height: 100vh;
+    background-image: url('../Images/Waterfalls.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.parallax2 img{
+    width: 30%;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.parallax3{
+    width: 100%;
+    height: 100vh;
+    background-image: url('../Images/Temple.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+h1 {
+    background-color: whitesmoke;
+    color: black;
+    width: 20%;
+    text-align: center;
+
+}
+
+.P1{
+    position: fixed;
+    border-top-right-radius: 2px;
+    border-bottom-right-radius: 2px;
+    background-image: url('../Images//Back on hi.gif');
+    font-family: "DM Serif Text", serif;
+} 
+
+.P2 {
+    position: relative; 
+    top: 20%;
+    left: 39%;
+    border-radius: 20px;
+}
+.P3 {
+    position: relative; 
+    top: 20%;
+    left: 40%;
+    border-radius: 20px;
+    
+}
+
+
+
+
+.desc1{
+    background-color: white;
+    color: black;
+    border-style: solid;
+    border-width: 1%;
+    border-color: lightgrey;
+    font-family: "Merriweather", serif;
+    font-size: small;
+    width: 50%;
+    position: relative; 
+    top:40%;
+    left: 45%;
+    padding: 1%;
+    border-radius:10px;
+}
+
+
+.desc2{
+    background-color:#006769;
+    color: #E0FBE2;
+    width: 50%;
+    position: relative; 
+    top:30%;
+    left: 45%;
+    padding: 1%;
+    border-radius:10px;
+}
+
+.desc3{
+    background-color: navy;
+    color: wheat;
+    width: 50%;
+    position: relative; 
+    top:30%;
+    left: 45%;
+    padding: 1%;
+    border-radius:10px;
+}
+body{
+    margin: 0%;
+}
+
+.parent{
+    display: flex;
+    flex-direction: column;
+}
+
+.parallax1 a{
+    color: black;
+    text-decoration: none;
+    position: relative;
+    left: 90%; 
+    top:10%;
+    background-color: white;
+    padding: 1%;
+    border-radius: 20%;
+    border-style: solid;
+    border-image: url('../Images/Back on hi.gif');
+    
+}

@@ -1,0 +1,70 @@
+.COMMON{
+    width:25%; 
+    border-style: solid; 
+    border-width: 5px;
+    font-family: "Teko", sans-serif;  
+    font-weight: 100;
+    font-size:smaller; 
+    padding-top: 30px; 
+    padding-left:5px ; 
+    padding-right: 5px;
+    margin-right: 100px;
+    margin-bottom: 50px;
+}
+
+.Parent{
+    display: flex; 
+    flex-wrap:wrap; 
+    justify-content: space-around;
+
+
+}
+
+h2{
+transition: transform 1s ease-out .3s;
+}
+
+h2:hover{
+    transform:translateX(40%);
+}
+
+
+.BATMAN{
+    
+    background-color: blanchedalmond;
+    border-color: white;
+   
+}  
+
+.Spiderman{
+  
+    border-color: white;
+    background-color:beige;
+    
+} 
+
+.Deadpool{
+    
+    border-color: white; 
+    background-color:ivory;
+   
+
+
+} 
+
+.Blackpanther{
+   
+    border-color: white; 
+    background-color:ivory;
+    
+
+}
+
+img{
+    width: 100%;
+} 
+
+body{
+    background-image: url("../Images/Comic-Book-2.jpg");
+    background-size:cover;
+}

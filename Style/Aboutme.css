@@ -1,0 +1,114 @@
+h1{
+    text-align: center; 
+    color: rgb(226, 195, 72);
+    position: relative;
+    bottom: 270px;
+    right:20px;
+} 
+
+.me h2{
+    position: relative;
+    left:410px;
+    bottom: 130px;
+}
+body{
+    background-color:white;
+}
+
+p{
+    color:black;
+    width:50%;
+    border-color: lightgrey;
+    border-width: 2px;
+    padding: 20px;
+    border-style: solid;
+    background-color:white;
+    border-radius: 10px;
+    margin:15px auto;
+    position: relative;
+   
+    
+} 
+br{
+    color: chocolate;
+   
+}
+
+.me img{
+    width: 10%;
+    border-radius: 50px;
+    margin:2px auto;
+    position: relative;
+    left:430.050px;
+    bottom:120px;
+    border-color: white;
+    border-style: solid;
+    border-width: 2px;
+    transition: transform 1s ease-in .3s;
+   
+}
+
+.me img:hover{
+    transform: scale(1.2);
+}
+
+.banner img{
+    height:200px;
+    width: 500px;
+    position: relative;
+    margin:30px ;
+    left: 210px;
+    border-top-left-radius:20px ;
+    border-top-right-radius: 20px;
+    top: 50px;
+    bottom: 50px;
+}
+
+
+.para{
+    position: relative;
+    bottom: 120px;
+}
+
+.navBar{
+    padding:2%;
+    background-color: darkred;
+    border-radius: 10px;
+    margin : 1%; 
+    text-align:center;
+    width: 50px;
+    position: relative;
+    bottom: 500px;
+    left: 700px;
+    transition-property: background-color;
+    transition-duration: 0s;
+    transition-timing-function: ease-in;
+    transition-delay: 0s;
+}
+
+.Home{
+    display: flex;
+    justify-content: flex-end;
+    width: 30%;
+    align-items: center;
+}
+
+.navBar a{
+    color: white;
+    text-decoration: none;
+}
+
+.navBar:hover{
+    background-color:darkcyan;
+}
+
+
+.me img:hover{
+    background-image: url('../Images/Back on Profile.gif');
+}
+
+
+
+
+
+

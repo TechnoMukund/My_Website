@@ -1,0 +1,54 @@
+.Common{
+    width:25%; 
+    border-style: solid; 
+    border-width: 5px;
+    font-family: "Teko", sans-serif;  
+    font-weight: 100;
+    font-size:smaller; 
+    padding-top: 30px; 
+    padding-left:5px ; 
+    padding-right: 5px;
+    margin-right: 100px;
+    margin-bottom: 50px;
+} 
+
+.IRONMAN{
+    background-color: black;
+}
+
+.P2{
+    display: flex; 
+    flex-wrap:wrap; 
+    justify-content: center;
+
+}
+
+
+.ART{
+    background-color: black;
+
+}
+
+
+
+
+
+
+ol {
+    list-style-type: lower-roman;
+}  
+
+body{
+    background-image: linear-gradient( to right bottom,#FF204E,#A0153E,#5D0E41,#00224D   );
+    color: blanchedalmond;
+}
+
+.Common img{
+
+    margin-left: 10%;
+    transition: transform 1s ease-in-out .2s;
+}
+
+.Common img:hover{
+    transform: skew(10deg);
+}

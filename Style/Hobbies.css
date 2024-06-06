@@ -1,0 +1,23 @@
+ul {
+    list-style-type: square; 
+    
+} 
+
+img {
+    width: 250;
+} 
+
+body{
+    background-image: url("../Images/Backdrop.jpg"); 
+    background-size: cover; 
+    color:whitesmoke;
+}
+
+li{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight:400;
+} 
+
+h1{
+     font-family: "Poetsen One", sans-serif;
+}

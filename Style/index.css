@@ -1,0 +1,316 @@
+.Header {
+  background-color: black;
+  grid-area: H1;
+  display: flex;
+  justify-content: space-between;
+}
+
+.profile img {
+  width: 50%;
+  height: 50%;
+  border-radius: 60px;
+  margin: 2px 3%;
+  padding-top: 4px;
+}
+
+.profile {
+  display: flex;
+  justify-content: end;
+}
+
+.profile h2 {
+  padding-top: 30px;
+  padding-right: 10px;
+  position: relative;
+  right: 50px;
+  bottom: 20px;
+  color: aliceblue;
+}
+
+.Content {
+  background-color: black;
+  grid-area: C2;
+}
+
+.SideBar {
+  background-color: black;
+  grid-area: S3;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.Footer {
+  background-color: black;
+  grid-area: F4;
+  color: whitesmoke;
+  display: flex;
+  align-items: center;
+}
+
+.C1 img {
+  height: 39%;
+}
+
+.Footer img {
+  width: 20px;
+  margin-left: 5px;
+}
+
+body {
+  margin: 0px;
+}
+
+.Parent {
+  display: grid;
+  height: 100vh;
+  grid-template-areas: "H1 H1" " C2 S3" "F4 F4";
+  grid-template-rows: 25% 75% 15%;
+  grid-template-columns: auto 30%;
+}
+
+.navBar {
+  padding: 2%;
+  background-color: darkred;
+  border-radius: 10px;
+  margin: 1%;
+  text-align: center;
+  width: 80%;
+  transition-property: background-color;
+  transition-duration: 0.5s;
+  transition-timing-function: ease-in;
+  transition-delay: 0s;
+}
+
+.nav-1 {
+  display: flex;
+  justify-content: flex-end;
+  width: 30%;
+  align-items: center;
+}
+
+.navBar a {
+  color: whitesmoke;
+  padding: 1%;
+  text-decoration: none;
+  transition: color 0s ease-in 0s;
+}
+
+.SB {
+  background-color: black;
+  border-radius: 20px;
+  border-style: outset;
+  border-color: white;
+  padding: 5%;
+  margin: auto 5px;
+  margin-top: 2%;
+  animation-name: coloursplash;
+  animation-duration: 7s;
+  animation-iteration-count: infinite;
+}
+
+.SB a:hover {
+  color: goldenrod;
+}
+
+.SB a {
+  color: whitesmoke;
+  text-decoration: none;
+  justify-content: space-evenly;
+}
+
+.card {
+  width: 100%;
+  border-color: lightgrey;
+  border-style: solid;
+  background-color: whitesmoke;
+  border-radius: 10px;
+  height: 80%;
+  margin: 0 1% 1% 1%;
+  padding: 0.5%;
+}
+
+.IMGA {
+  height: 50%;
+}
+
+.card img {
+  width: 100%;
+  border-top-left-radius: 10%;
+  border-top-right-radius: 7%;
+}
+
+.desc p {
+  text-align: center;
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 10px;
+}
+
+.desc h2 {
+  font-family: "Danfo", serif;
+  text-align: center;
+}
+
+.Cards {
+  display: flex;
+  width: 300%;
+  height: 90%;
+  position: relative;
+  animation: SlideShow 15s infinite;
+}
+
+h1 {
+  text-align: left;
+  color: whitesmoke;
+  position: relative;
+  top: 30%;
+  font-size: 20%;
+  padding: 10px;
+}
+
+.Header h2 {
+  width: 100%;
+  margin: 2px;
+  margin-left: 50px;
+  color: white;
+}
+.CH {
+  color: white;
+  position: absolute;
+  top: 13%;
+}
+
+.navBar:hover {
+  background-image: url("../Images/Back On Nava2.gif");
+}
+
+.navBar a:hover {
+  color: black;
+}
+
+.Btn {
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  background-color: goldenrod;
+  border: 2px ridge white;
+  position: absolute;
+  top: 90%;
+}
+
+.Btn:focus {
+  background-color: whitesmoke;
+  border-color: goldenrod;
+  animation: none;
+}
+
+.Btn1 {
+  left: 40%;
+}
+
+.Btn1:focus ~ .Cards {
+  left: 0%;
+  animation: none;
+}
+
+.Btn2 {
+  left: 45%;
+}
+
+.Btn2:focus ~ .Cards {
+  left: -100%;
+  animation: none;
+}
+
+.Btn3 {
+  left: 50%;
+}
+
+.Btn3:focus ~ .Cards {
+  left: -200%;
+  animation: none;
+}
+.slideshow {
+  position: relative;
+  height: 90%;
+  overflow: hidden;
+}
+
+@keyframes SlideShow {
+  0% {
+    left: 0%;
+  }
+
+  20% {
+    left: -100%;
+  }
+
+  40% {
+    left: -200%;
+  }
+
+  70% {
+    left: -100%;
+  }
+
+  90% {
+    left: 0%;
+  }
+}
+
+@keyframes coloursplash {
+  0% {
+    background-image: url("../Images/Uni5.gif");
+  }
+  25% {
+    background-image: url("../Images/Uni1.gif");
+  }
+  50% {
+    background-image: url("../Images/Uni2.gif");
+  }
+
+  75% {
+    background-image: url("../Images/Uni3.gif");
+  }
+  100% {
+    background-image: url("../Images/Uni4.gif");
+  }
+}
+
+.hey h2 {
+  color: whitesmoke;
+  position: relative;
+  top: 10%;
+  margin-left: 20;
+  left: 1px;
+  font-size: 30px;
+  font-family: "Playfair Display", serif;
+  background-image: url("../Images/Back on hi.gif");
+}
+
+.SB:hover {
+  background-color: rgb(rgba(244, 252, 0, 0.772));
+}
+
+.Footer p:hover {
+  color: goldenrod;
+}
+
+@media only screen and (max-width: 400px) {
+  .Parent {
+    grid-template-areas: "H1" "S3" "C2" "F4";
+    grid-template-rows: 40% 30% 50% 20%;
+    grid-template-columns: 100%;
+  }
+
+  .hey h2 {
+    font-size: 20px;
+    margin-top: 100px;
+    width: 100%;
+  }
+
+  .SideBar {
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+}
